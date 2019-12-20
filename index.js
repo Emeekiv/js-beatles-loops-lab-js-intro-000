@@ -11,7 +11,7 @@ var mlen = musicians.length;
 function theBeatlesPlay(musicians, instruments){
 var list = [];
 var mlen = musicians.length;
-  for (let i = 0; i <= mlen; i++){
+  for (let i = 1; i <= mlen; i++){
       var musician = musicians[i];
       var instrument = instrument[i];
     list.push(`${musician} plays ${instrument}`);

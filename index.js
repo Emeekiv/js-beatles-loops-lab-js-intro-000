@@ -33,7 +33,7 @@ function iLoveTheBeatles(i){
 var say = [];
   do {
     i++;
-    return say[i] = 'I Love The Beatles!';
+    return say.push('I Love The Beatles!');
   }
   while (i < 15;)
 }

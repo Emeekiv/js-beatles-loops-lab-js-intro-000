@@ -35,5 +35,5 @@ var say = [];
     i++;
     return say.push('I Love The Beatles!');
   }
-  while (i < 15;)
+  while (i < 15);
 }

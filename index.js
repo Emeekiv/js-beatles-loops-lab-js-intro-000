@@ -8,18 +8,6 @@ var mlen = musicians.length;
   return list;
 }
 
-/*function theBeatlesPlay(musicians, instruments){
-var list = [];
-var mlen = musicians.length;
-  for (let i = 0; i <= mlen; i++){
-      var musician = musicians[i];
-      var instrument = instrument[i];
-    list.push(`${musician} plays ${instrument}`);
-  }
-  return list;
-} */
-
-
 function johnLennonFacts(facts){
 var i = 0;
   while (i < facts.length){

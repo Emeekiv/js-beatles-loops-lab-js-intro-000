@@ -1,14 +1,14 @@
 // add solution here
-/* function theBeatlesPlay(musicians, instruments){
+function theBeatlesPlay(musicians, instruments){
 var list = [];
 var mlen = musicians.length;
   for (let i = 1; i <= mlen; i++){
     list.push(`${musicians[i]} plays ${instruments[i]}`);
   }
   return list;
-} */
+}
 
-function theBeatlesPlay(musicians, instruments){
+/*function theBeatlesPlay(musicians, instruments){
 var list = [];
 var mlen = musicians.length;
   for (let i = 0; i <= mlen; i++){
@@ -17,7 +17,7 @@ var mlen = musicians.length;
     list.push(`${musician} plays ${instrument}`);
   }
   return list;
-}
+} */
 
 
 function johnLennonFacts(facts){
@@ -27,4 +27,14 @@ var i = 0;
     i++;
   }
   return facts
+}
+
+function iLoveTheBeatles(i){
+  do {
+    i++;
+    return 'I Love The Beatles!'
+  }
+  while {
+    i < 15;
+  }
 }

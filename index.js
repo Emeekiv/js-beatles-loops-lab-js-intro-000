@@ -30,7 +30,7 @@ var i = 0;
 }
 
 function iLoveTheBeatles(i){
-var say = []
+var say = [];
   do {
     i++;
     return say[i] = 'I Love The Beatles!';

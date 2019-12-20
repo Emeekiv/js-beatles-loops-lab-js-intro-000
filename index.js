@@ -34,7 +34,5 @@ function iLoveTheBeatles(i){
     i++;
     return 'I Love The Beatles!';
   }
-  while {
-    i < 15;
-  }
+  while (i < 15;)
 }

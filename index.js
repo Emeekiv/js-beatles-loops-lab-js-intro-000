@@ -30,7 +30,7 @@ var i = 0;
 }
 
 function iLoveTheBeatles(i){
-var say = new Array();
+var say = [];
   do {
     i++;
     return say.push('I Love The Beatles!');

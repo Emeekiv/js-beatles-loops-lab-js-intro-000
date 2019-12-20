@@ -26,4 +26,5 @@ var i = 0;
     facts[i] = `${facts[i]} !!!`;
     i++;
   }
+  return facts
 }
